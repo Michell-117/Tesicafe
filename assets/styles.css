@@ -1,0 +1,495 @@
+/* Fonts */
+@font-face {
+    font-family: MontserratBlack;
+    src: url(./fonts/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: MontserratBold;
+    src: url(./fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: MontserratExtraBold;
+    src: url(../assets/fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: MontserratLight;
+    src: url(./fonts/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: MontserratMedium;
+    src: url(./fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: MontserratRegular;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: MontserratSemiBold;
+    src: url(./fonts/Montserrat-SemiBold.ttf);
+}
+/* Fonts */
+/* ================================================================== */
+body{
+    font-family: MontserratMedium;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Inicia menu */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 10vh;
+
+    /* background-color: lightgreen; */
+}
+.navLaterales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+
+    /* background-color: lavenderblush; */
+}
+.navLaterales a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    font-family: MontserratSemiBold;
+    color: white;
+    background-color: #1A386A;
+    border-radius: 50px;
+}
+.navLaterales a:hover{
+    color: #1A386A;
+    font-family: MontserratBold;
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
+    background-color: #F1F7ED;
+}
+#navCentral{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 60%;
+
+    /* background-color: pink; */
+}
+#navCentral a{
+    font-family: MontserratBold;
+    font-size:20px;
+    color: #1A386A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    
+    /* background-color: lightcyan; */
+}
+#navCentral a:hover{
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
+    background-color: #F1F7ED;
+}
+/* Final menu */
+/* ================================================================== */
+main{
+width: 100vw;
+min-height: 200px;
+
+/* background-color: lightsalmon; */
+
+}
+/* ================================================================== */
+/* Inicia seccion 1 */
+#seccVideo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 600px;
+    background-color: #F1F7ED;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.secVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    min-height: 80%;
+
+    /* background-color: lightgreen; */
+}
+.secVideo img{
+    width: 100%;
+}
+#secVideoText{
+    display: block;
+}
+#secVideoText h1{
+    font-family: MontserratBold;
+    font-size: 45px;
+    letter-spacing: 2px;
+    line-height: 55px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+#secVideoTextP{
+    font-family: MontserratMedium;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+#secVideoCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 100%;
+    height: 20%;
+
+    /* background-color: lightcoral; */
+}
+.secVideoContInt{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 40%;
+    height: 100%;
+
+    /* background-color: lemonchiffon; */
+}
+.secVideoContInt a{
+    font-size: 17px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#1A386A;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+}
+.secVideoContInt a:hover{
+    font-family: MontserratBold;
+    color: #1A386A;
+    background-color:white;
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
+}
+.secVideoContInt p{
+    margin-left: 30px;
+}
+#secVideoCont img{
+    width: 15px;
+    height: 15px;
+
+}
+#secVideoContIntPlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #1A386A;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#secVideoContIntPlay:hover{
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
+    border: 1px solid #F1F7ED;
+}
+
+#secVideoInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    margin-top: 80px;
+
+    /* background-color: paleturquoise; */
+}
+#secVideoInfo h2{
+    font-size: 30px;
+    text-align: center;
+}
+#secVideoInfo p{
+    text-align: center;
+    margin-top: 10px;
+}
+/* Fin seccion 1 */
+/* ================================================================== */
+/* Inicio seccion 2 */
+#secFotosEscuelas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: fit-content;
+    padding: 50px 0px 50px 0px;
+    
+    /* background-color: lightgreen; */
+}
+.escuelas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    
+    /* background-color: lightcoral; */
+}
+/* Fin seccion 2 */
+
+/* inicio seccion 3 */
+#secServ{
+    width: 100%;
+    min-height: 600px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    /* background-color: lightseagreen; */
+}
+
+#secServH1{
+    font-family: MontserratBold;
+    color: #1A386A;
+    text-align: center;
+    font-size: 45px;
+}
+#secServP{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#secServiciosCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+
+    /* background-color: lightgreen; */
+}
+.serviciosSeccion{
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    background-color:#F1F7ED;
+    box-shadow: 0px 3px 4px rgb(168, 168, 168); 
+    padding-right: 20px;
+    padding-left: 20px ;
+}
+.serviciosSeccion{
+    text-align: center;
+}
+.serviciosSeccion h2{
+    margin-bottom: 50px;
+}
+.servCirc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    box-shadow: 0px 3px 4px rgb(168, 168, 168);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* Fin seccion 3 */
+
+/* Inicio seccion 4 */
+#secMet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 600px;
+
+    /* background-color: lightgreen; */
+}
+.secMetCont{
+    width: 40%;
+    height: 500px;
+
+    /* background-color: lightcoral; */
+}
+#s1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: lightblue; */
+}
+#secDes{
+    position: absolute;
+    width: 530px;
+    height: 400px;
+    margin-top: -90px;
+    margin-right: 90px;
+    border-radius: 15px;
+    background-color:#F1F7ED;
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
+}
+#secMetImg{
+    position: absolute;
+    width: 530px;
+    height: 400px;
+}
+.secMetCont h1{
+    font-size: 40px;
+    text-align: justify;
+}.secMetCont p{
+    font-family: MontserratLight;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: justify;
+    margin-top: 50px;
+    
+}
+#tesilibro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 30%;
+    height: 10%;
+    color: white;
+    background-color: #1A386A;
+    border-radius: 30px;
+}
+#tesilibro:hover{
+    font-family: MontserratBold;
+    color: #1A386A;
+    background-color:#F1F7ED;
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
+}
+#secDes2{
+    position: absolute;
+    width: 530px;
+    height: 400px;
+    margin-bottom: 90px;
+    margin-left: 90px;
+    border-radius: 15px;
+    background-color:#F1F7ED;
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
+}
+#secMetImg2{
+    position: absolute;
+    width: 530px;
+    height: 400px;
+}
+/* Fin seccion 4 */
+/* Inicio seccion 5 */
+#secCom{
+    width: 100%;
+    min-height: 500px;
+
+    /* background-color: lightblue; */
+}
+#secCom h1{
+    text-align: center;
+    font-size: 45px;
+    color: #1A386A;
+}
+#secComTes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+
+    /* background-color: lightsalmon; */
+}
+.secComTes{
+    width: 20%;
+    height: 80%;
+    padding: 10px;
+    background-color: #F1F7ED;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
+}
+#secComTes img{
+   cursor: pointer;
+}
+#secComTesH3{
+    margin-top: 30px;
+    text-align: center;
+}
+#secComTesP{
+    margin-top: 60px;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    /* background-color: aquamarine; */
+}
+#footerH{
+    font-size: 40px;
+    color: #1A386A;
+    font-family: MontserratBold;
+    text-align: center;
+}
+.footerP{
+    text-align: center;
+}
+#redesSociales{
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+    width: 25%;
+    margin: auto;
+    margin-top: 30px;
+
+    /* background-color: lawngreen; */
+}
+#aTC{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+    width: 20%;
+}
+#aTC a{
+    color: #1A386A;
+}
+#mk{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 12px;
+}
+#mk span{
+    color: red;
+}
+/* Fin seccion 5 */
