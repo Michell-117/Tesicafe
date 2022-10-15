@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tesicafé</title>
+
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="./assets/movil.css">
+
 </head>
 <body>
     <!-- Inicio Menu -->
@@ -15,55 +20,73 @@
         </section>
 
         <section id="navCentral">
-            <a href="">Home</a>
-            <a href="">Tesilibro</a>
-            <a href="">Blog</a>
-            <a href="">Contacto</a>
+            <a href="" id="home" class="navLink">Home</a>
+            <a href="" id="tesi" class="navLink">Tesilibro</a>
+            <a href="" id="blog" class="navLink">Blog</a>
+            <a href="" id="cont" class="navLink">Contacto</a>
         </section>
 
-        <section class="navLaterales">
-            <a href="#">Iniciar sesión</a>
+        <section class="navLaterales" id="navH">
+            <a href="#" id="inicioS">Iniciar sesión</a>
+            <button id="menuHamburguer"></button>
         </section>
     </nav>
     <!-- Fin Menu -->
     <main>
         <!-- Inicio seccion 1 -->
         <section id="seccVideo">
-            <div class="secVideo" id="secVideoText">
-                <h1>El mejor método para terminar tu tesis.</h1>
-                <p id="secVideoTextP">70% de tesicafecistas terminan sus proyectos o ingresan a Posgrados de excelencia</p>
 
-                <section id="secVideoCont">
-                    <div class="secVideoContInt">
-                        <a href="#">Términar mi tesis</a>
+            <div id="secVideoText">
+
+                <h1 id="secV_H1">El mejor método para terminar tu tesis.</h1>
+                <p id="secV_P">70% de tesicafecistas terminan sus proyectos o ingresan a Posgrados de excelencia</p>
+
+                <section id="secVideoText_1">
+
+                    <div id="secV_a">
+                        <a href="#" >Términar mi tesis</a>
                     </div>
-                    <div class="secVideoContInt">
-                        <div id="secVideoContIntPlay">
+
+                    <div id="secV_imgA">
+
+                        <div id="secV_imgA_c">
                             <img src="./assets/img/play 1.png" alt="">
                         </div>
-                        <p>Ver video</p>
-                    </div>
-                </section>
 
-                <section id="secVideoInfo">
-                    <div>
-                        <h2>+700</h2>
-                        <p>Proyectos</p>
-                    </div>
-                    <div>
-                        <h2>+8</h2>
-                        <p>Países</p>
-                    </div>
-                    <div>
-                        <h2>7 años</h2>
-                        <p>de experiencia</p>
+                        <p>ver video</p>
+
                     </div>
 
                 </section>
 
+                <section id="secVideoText_2">
+
+                    <div class="secVideoText_2D">
+
+                        <h2 class="secV_H2">+700</h2>
+                        <p class="secV_P">Proyectos</p>
+
+                    </div>
+
+                    <div class="secVideoText_2D">
+
+                        <h2 class="secV_H2">+8</h2>
+                        <p class="secV_P">Países</p>
+
+                    </div>
+
+                    <div class="secVideoText_2D">
+
+                        <h2 class="secV_H2">+7 años</h2>
+                        <p class="secV_P">de experiencia</p>
+
+                    </div>
+
+                </section>
+                
             </div>
 
-            <div class="secVideo">
+            <div id="secVideo">
                 <img src="./assets/img/imagen 2.png" alt="">
             </div>
 
@@ -118,21 +141,22 @@
 
         <!-- Inicio seccion 4 -->
 
-        <section id="secMet">
+        <section class="secMet">
             <div class="secMetCont" id="s1">
                 <div id="secDes"><!-- desfase --></div>
                 <img src="./assets/img/imagen 3.png" alt="" id="secMetImg">
             </div>
 
-            <div class="secMetCont">
+            <div class="secMetCont secMetCont2T">
                 <h1>¿Por qué funciona nuestro método?</h1>
                 <p>Desarrollamos material especificio para los problemas de nuestros y nuestras tesicafecistas: video, pódcast, libros, infografías, etc.</p>
                 <p>Contamos con planes accesibles y acompañamiento psico emocional para asegurar que consigas tus objetivos.</p>
                 <a href="#" target="_blank" rel="noopener noreferrer" id="tesilibro">Dercargar Tesilibro</a>
             </div>
         </section>
-        <section id="secMet">
-            <div class="secMetCont">
+        
+        <section class="secMet">
+            <div class="secMetCont secMetCont2T">
                 <h1>Con un método validado epistemológicamente.</h1>
                 <p>Todas y todos nuestro profesores cuentan con Posgrados y experiencia en Congresos, libros y artículos internacionales.</p>
                 <p>Actualizamos constantemente nuestros recursos educativos, además de presentarlos en simposios y congresos internacionales.</p>

@@ -1,0 +1,262 @@
+@media (max-width: 1700px ) {
+    .secMetCont p{
+        margin-top: 30px;
+    }
+    #aTC{
+        width: 30%;
+    }
+}
+@media (max-width: 1500px ) {
+    nav{
+        grid-template-columns: 2fr 4fr 2fr;
+    }
+    #secV_H1{
+        font-size: 35px;
+    }
+    #secV_P{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    #secV_H2{
+        font-size: 25px;
+    }
+    #tesilibro{
+        font-size: 15px;
+    }
+    #secMet p{
+        font-size: 15px;
+    }
+    .secMetCont h1{
+        font-size: 35px;
+    }
+    #secServH1{
+        font-size: 35px;
+    }
+    #secDes{
+        width: 470px;
+        height: 340px;
+        margin-top: -70px;
+        margin-right: 70px;
+        
+    }
+    #secMetImg{
+        width: 470px;
+        height: 340px;
+    }
+    #tesilibro{
+        width: 50%;
+    }
+    #secDes2{
+        width: 470px;
+        height: 340px;
+        margin-bottom: 70px;
+        margin-left: 70px;
+    }
+    #secMetImg2{
+        width: 470px;
+        height: 340px;
+    }
+    #redesSociales{
+        width: 35%
+    }
+    #secCom h1{
+        font-size: 35px;
+    }
+}
+/* ======================================================================================================== */
+@media (max-width: 1300px) {
+    #secV_H1{
+        font-size: 30px;
+    }
+    #secV_P{
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+    #secV_H2{
+        font-size: 20px;
+    }
+    #secV_a a{
+        font-size: 15px;
+    }
+    #secV_imgA p{
+        font-size: 15px;
+    }
+    /* 2 */
+    #secServH1{
+        font-size: 30px;
+    }
+    .secMet{
+        height: 400px;
+    }
+    .secMetCont{
+        height: 400px;
+    }
+    .secMetCont h1{
+        font-size: 27px;
+    }
+    .secMetCont2T{
+        padding: 20px;
+    }
+    .secMetCont2T p{
+        font-size: 15px;
+    }
+    #secDes{
+        width: 440px;
+        height: 310px;
+        margin-top: -50px;
+        margin-right: 50px;
+    }
+    #secMetImg{
+        width: 440px;
+        height: 310px;
+    }
+    #tesilibro{
+        width: 60%;
+        font-size: 15px;
+    }
+    #secDes2{
+        width: 470px;
+        height: 340px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+    #secMetImg2{
+        width: 470px;
+        height: 340px;
+    }
+    #secCom h1{
+        font-size: 30px;
+    }
+    #secComTesH3{
+        font-size: 17px;
+    }
+    #secComTesP{
+        font-size: 15px;
+    }
+    #aTC a{
+        font-size: 15px;
+    }
+}
+/* ======================================================================================================== */
+@media (max-width: 1150px) {
+    #secV_H1{
+        font-size: 25px;
+    }
+    #secV_H2{
+        font-size: 15px;
+    }
+    #secV_a a{
+        height: 50%;
+        font-size: 12px;
+    }
+    #secV_imgA_c{
+        width: 20px;
+        height: 20px;
+    }   
+    #secV_imgA p{
+        font-size: 12px;
+    }
+    .secV_P{
+        font: 12px;
+    }
+    #secVideoText_2{
+        margin-top: 0px;
+    }
+    #secServ{
+        padding-top: 0px; 
+    }
+    #secServiciosCont{
+        height: 300px;
+    }
+    .servCirc{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80px;
+        height: 80px;
+    }
+    .servCirc img{
+        width: 60%;
+        height: 60%;
+    }
+    .serviciosSeccion h2{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .serviciosSeccion p{
+        font-size:13px;
+    }
+    .secMet{
+        min-height: 400px;
+    }
+    .secMetCont{
+        height: 400px;
+    }
+    .secMetCont h1{
+        margin-bottom: 70px;
+        font-size: 23px;
+    }
+    .secMetCont2T{
+        padding: 20px;
+    }
+    .secMetCont2T p{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    #secDes{
+        width: 400px;
+        height: 270px;
+        margin-top: -50px;
+        margin-right: 50px;
+    }
+    #secMetImg{
+        width: 400px;
+        height: 270px;
+    }#secDes2{
+        width: 400px;
+        height: 270px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+    #secMetImg2{
+        width: 400px;
+        height: 270px;
+    }#tesilibro{
+        width: 40%;
+        height: 6%;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    #secCom{
+        min-height: 400px;
+    }
+    #secCom h1{
+        font-size: 25px;
+    }
+    #secComTes{
+        height: 280px;
+    }
+    #secComTesH3{
+        font-size: 15px;
+    }
+    #secComTesP{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    #footerH{
+        font-size: 25px;
+    }
+    .footerP{
+        font-size: 15px;
+    }
+    #redesSociales img{
+        width: 50px;
+        height: 50px;
+    }
+    #aTC{
+        width: 40%;
+    }
+    #aTC a{
+        font-size: 15px;
+    }
+    
+}

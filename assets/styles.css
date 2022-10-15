@@ -46,71 +46,73 @@ a{
 
 /* Inicia menu */
 
+/* Inicio Menu */
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100vw;
-    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    height: 100px;
 
-    /* background-color: lightgreen; */
+    /* background-color: lightcyan; */
+}
+#menuHamburguer{
+    display: none;
 }
 .navLaterales{
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 20%;
-    height: 100%;
-
-    /* background-color: lavenderblush; */
-}
-.navLaterales a{
-    display: flex;
     align-items: center;
-    justify-content: center;
-    width: 60%;
-    height: 60%;
-    font-family: MontserratSemiBold;
-    color: white;
-    background-color: #1A386A;
-    border-radius: 50px;
-}
-.navLaterales a:hover{
-    color: #1A386A;
-    font-family: MontserratBold;
-    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
-    background-color: #F1F7ED;
 }
 #navCentral{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 30%;
-    height: 60%;
-
-    /* background-color: pink; */
+    display: grid;
+    grid-template-columns: 2fr repeat(4,1fr) 2fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    column-gap: 40px;
+    row-gap: 10px;
 }
-#navCentral a{
-    font-family: MontserratBold;
-    font-size:20px;
-    color: #1A386A;
+#home{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 4px;
+}
+#tesi{
+    grid-column:3/4;
+    grid-row: 2/3;
+}
+#blog{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+#cont{
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+.navLink{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: fit-content;
-    height: fit-content;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    justify-content: center;
     border-radius: 20px;
-    
-    /* background-color: lightcyan; */
+    font-family: MontserratBold;
+    color: #1A386A;
+    text-decoration: none;
 }
-#navCentral a:hover{
-    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
+.navLink:hover{
     background-color: #F1F7ED;
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
 }
-/* Final menu */
+#inicioS{
+    padding: 10px 20px 10px 20px;
+    background-color: #1A386A;
+    font-family: MontserratBold;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#inicioS:hover{
+    background-color: #F1F7ED;
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
+    color: #1A386A;
+}
+/* Fin menu */
 /* ================================================================== */
 main{
 width: 100vw;
@@ -122,124 +124,112 @@ min-height: 200px;
 /* ================================================================== */
 /* Inicia seccion 1 */
 #seccVideo{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    min-height: 200px;
+    background-color: #F1F7ED;
+}
+#secVideo{
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+    /* background-color: pink; */
+}
+#secVideo img{
+   width: 100%;
+}
+#secVideoText{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    padding-right: 40px;
+
+    /* background-color: pink; */
+}
+#secV_H1{
+    font-size: 40px;
+    text-align: justify;
+    font-family:MontserratBold ;
+}
+#secV_P{
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+#secVideoText_1{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+
+    /* background-color: lawngreen; */
+}
+#secV_a{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 70%;
+
+    /* background-color: lavender; */
+}
+#secV_a a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 70%;
+    background-color: #1A386A;
+    color: white;
+    border-radius: 30px;
+    font-family: MontserratSemiBold;
+}
+#secV_a a:hover{
+    background-color: #F1F7ED;
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
+    color: #1A386A;
+    
+}
+#secV_imgA{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+
+    /* background-color: lightgoldenrodyellow; */
+}
+#secV_imgA_c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #1A386A ;
+    cursor: pointer;
+}
+#secV_imgA_c:hover{
+    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
+}
+#secV_imgA_c img{
+    width: 40%;
+    height: 40%;
+}
+#secVideoText_2{
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 600px;
-    background-color: #F1F7ED;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-.secVideo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 35%;
-    min-height: 80%;
-
-    /* background-color: lightgreen; */
-}
-.secVideo img{
-    width: 100%;
-}
-#secVideoText{
-    display: block;
-}
-#secVideoText h1{
-    font-family: MontserratBold;
-    font-size: 45px;
-    letter-spacing: 2px;
-    line-height: 55px;
-    text-align: justify;
-    margin-bottom: 50px;
-}
-#secVideoTextP{
-    font-family: MontserratMedium;
-    font-size: 20px;
-    text-align: justify;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    line-height: 30px;
-}
-#secVideoCont{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 80px;
-    width: 100%;
-    height: 20%;
-
-    /* background-color: lightcoral; */
-}
-.secVideoContInt{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    width: 40%;
-    height: 100%;
-
-    /* background-color: lemonchiffon; */
-}
-.secVideoContInt a{
-    font-size: 17px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:#1A386A;
-    width: 100%;
-    height: 40px;
-    border-radius: 40px;
-}
-.secVideoContInt a:hover{
-    font-family: MontserratBold;
-    color: #1A386A;
-    background-color:white;
-    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
-}
-.secVideoContInt p{
-    margin-left: 30px;
-}
-#secVideoCont img{
-    width: 15px;
-    height: 15px;
-
-}
-#secVideoContIntPlay{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border: 1px solid #1A386A;
-    border-radius: 50%;
-    cursor: pointer;
-}
-#secVideoContIntPlay:hover{
-    box-shadow: 2px 2px 2px 2px rgb(168, 168, 168);
-    border: 1px solid #F1F7ED;
-}
-
-#secVideoInfo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
     height: fit-content;
-    margin-top: 80px;
+    margin-top: 20px;
 
-    /* background-color: paleturquoise; */
+    /* background-color: aqua; */
 }
-#secVideoInfo h2{
-    font-size: 30px;
-    text-align: center;
+#secVideoText_2 h2{
+    font-size: 25px;
+    font-family: MontserratExtraBold;
+    margin-bottom: 5px;
 }
-#secVideoInfo p{
-    text-align: center;
-    margin-top: 10px;
-}
+
 /* Fin seccion 1 */
 /* ================================================================== */
 /* Inicio seccion 2 */
@@ -325,7 +315,7 @@ min-height: 200px;
 /* Fin seccion 3 */
 
 /* Inicio seccion 4 */
-#secMet{
+.secMet{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -365,7 +355,8 @@ min-height: 200px;
 .secMetCont h1{
     font-size: 40px;
     text-align: justify;
-}.secMetCont p{
+}
+.secMetCont p{
     font-family: MontserratLight;
     font-size: 20px;
     letter-spacing: 2px;
@@ -446,6 +437,7 @@ min-height: 200px;
     margin-top: 60px;
     text-align: center;
 }
+
 footer{
     width: 100%;
     height: fit-content;
@@ -471,7 +463,7 @@ footer{
     margin: auto;
     margin-top: 30px;
 
-    /* background-color: lawngreen; */
+    background-color: lawngreen;
 }
 #aTC{
     display: flex;
@@ -480,6 +472,8 @@ footer{
     margin-top: 30px;
     justify-content: space-between;
     width: 20%;
+
+    background-color: pink;
 }
 #aTC a{
     color: #1A386A;

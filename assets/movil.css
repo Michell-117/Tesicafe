@@ -1,0 +1,39 @@
+@media (max-width: 950px) {
+    /*/*============================ Inicio menu /*============================*/
+    #navCentral{
+        display: none;
+    }
+    #inicioS{
+        display: none;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
+        height: 80px;
+    }
+    #navH{
+        grid-column: 3/4;
+    }
+    #menuHamburguer{
+        display: flex;
+    }
+    /*============================ Fin menu /*============================*/
+    /*============================ Inicio seccion 1 /*============================*/
+    
+    #seccVideo{
+        grid-template-columns: 1fr 6fr 1fr;
+        grid-template-rows: 1fr 4fr 4fr 1fr;
+        
+    }
+    #secVideo{
+        grid-column: 2/3;
+    }
+    #secVideoText{
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+
+    /*============================ Fin seccion 1 /*============================*/
+
+}
